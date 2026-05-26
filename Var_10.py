@@ -1,12 +1,12 @@
 import sys
+
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QLabel, QLineEdit,
     QVBoxLayout, QHBoxLayout, QPushButton, QComboBox,
     QGroupBox, QMessageBox
 )
-from PyQt5.QtCore import Qt
 
 
 class MyProject(QMainWindow):
